@@ -17,6 +17,7 @@ rvm:
   - 2.5.3
   - 2.6.3
   - 2.7.0
+  - 3.0.0
 gemfile:
   - Gemfile
   - Gemfile.rails3.0
@@ -28,6 +29,8 @@ gemfile:
   - Gemfile.rails5.0
   - Gemfile.rails5.1
   - Gemfile.rails5.2
+  - Gemfile.rails6.0
+  - Gemfile.rails6.1
   - Gemfile.rails-edge
 matrix:
   exclude:
@@ -87,6 +90,22 @@ matrix:
       gemfile: Gemfile.rails5.1
     - rvm: 2.1.8
       gemfile: Gemfile.rails5.2
+    - rvm: 2.1.8
+      gemfile: Gemfile.rails6.0
+    - rvm: 2.2.7
+      gemfile: Gemfile.rails6.0
+    - rvm: 2.3.8
+      gemfile: Gemfile.rails6.0
+    - rvm: 2.4.5
+      gemfile: Gemfile.rails6.0
+    - rvm: 2.1.8
+      gemfile: Gemfile.rails6.1
+    - rvm: 2.2.7
+      gemfile: Gemfile.rails6.1
+    - rvm: 2.3.8
+      gemfile: Gemfile.rails6.1
+    - rvm: 2.4.5
+      gemfile: Gemfile.rails6.1
     - rvm: 2.1.8
       gemfile: Gemfile.rails-edge
     - rvm: 2.2.7
